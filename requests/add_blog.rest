@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZraW5udWxhIiwiaWQiOiI1ZjM0MjI5NDE3ZmQ4YTIyM2NiMTg4ZjkiLCJpYXQiOjE1OTcyNTIyNDl9.gV1oaK9MQIvPuhU91l0zs-BTRtB5vU9HrdbYCCCr9Rk
+
+{
+    "title": "kaikkee",
+    "author": "kirjailija",
+    "url": "www.bloggers.com",
+    "likes": "31"
+}
