@@ -1,0 +1,6 @@
+POST http://localhost:3003/api/blogs/5f354283649fb02436ddc025/comments
+Content-Type: application/json
+
+{
+    "content": "i also liked this"
+}
